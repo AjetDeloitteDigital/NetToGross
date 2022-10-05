@@ -1,5 +1,5 @@
 import { LightningElement, track, wire } from 'lwc';
-import getCurrentlyLoggedInUsersCountryCode from '@salesforce/apex/NetToGrossComponent.getCurrentlyLoggedInUsersCountryCode';
+import getCurrentlyLoggedInUsersCountryCode from '@salesforce/apex/CTRL_NetToGross.getCurrentlyLoggedInUsersCountryCode';
 
 export default class NetToGross extends LightningElement {
     inputValue;

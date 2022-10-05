@@ -1,4 +1,4 @@
-public with sharing class NetToGrossComponent {
+public with sharing class CTRL_NetToGross {
     @AuraEnabled(Cacheable=true)
     public static String getCurrentlyLoggedInUsersCountryCode(){
         try {
